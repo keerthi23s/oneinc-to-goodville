@@ -1,0 +1,9 @@
+--this table is used to store the tokenized flatfile we get from oneinc
+CREATE TABLE ONEINC_GG_TOKENIZED_FLATFILE(
+GG_Customer_ID VARCHAR(max),
+Agreement_ID VARCHAR(MAX),
+Policy_Number VARCHAR (MAX),
+Token VARCHAR(max),
+CustomerId VARCHAR(max),
+INS_ID VARCHAR (MAX),
+Bank_Account_Name VARCHAR (max))
